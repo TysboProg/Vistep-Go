@@ -1,5 +1,5 @@
 import { createAtom, reaction, } from "mobx"
-import type {DefaultError, QueryObserverOptions, QueryKey} from "@tanstack/query-core"
+import type { DefaultError, QueryObserverOptions, QueryKey } from "@tanstack/query-core"
 import { QueryObserver, QueryClient } from "@tanstack/query-core";
 
 export class MobxQuery<
